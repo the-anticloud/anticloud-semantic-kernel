@@ -1,0 +1,327 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:855a5606-c458-5645-9da0-b11e5e942091",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:54:08Z",
+  "component": {
+   "type": "application",
+   "name": "SEMANTIC_KERNEL",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/SEMANTIC_KERNEL@83b357604d34",
+   "purl": "pkg:generic/anticloud/SEMANTIC_KERNEL@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "azure-ai-projects",
+   "version": ">=",
+   "purl": "pkg:pypi/azure-ai-projects@",
+   "bom-ref": "pypi/azure-ai-projects@>="
+  },
+  {
+   "type": "library",
+   "name": "azure-ai-agents",
+   "version": ">=",
+   "purl": "pkg:pypi/azure-ai-agents@",
+   "bom-ref": "pypi/azure-ai-agents@>="
+  },
+  {
+   "type": "library",
+   "name": "aiohttp",
+   "version": "~=",
+   "purl": "pkg:pypi/aiohttp@",
+   "bom-ref": "pypi/aiohttp@~="
+  },
+  {
+   "type": "library",
+   "name": "cloudevents",
+   "version": ">=1",
+   "purl": "pkg:pypi/cloudevents@1",
+   "bom-ref": "pypi/cloudevents@>=1"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2.0",
+   "purl": "pkg:pypi/pydantic@2.0",
+   "bom-ref": "pypi/pydantic@>=2.0"
+  },
+  {
+   "type": "library",
+   "name": "pydantic-settings",
+   "version": "~=",
+   "purl": "pkg:pypi/pydantic-settings@",
+   "bom-ref": "pypi/pydantic-settings@~="
+  },
+  {
+   "type": "library",
+   "name": "defusedxml",
+   "version": "~=",
+   "purl": "pkg:pypi/defusedxml@",
+   "bom-ref": "pypi/defusedxml@~="
+  },
+  {
+   "type": "library",
+   "name": "azure-identity",
+   "version": ">=",
+   "purl": "pkg:pypi/azure-identity@",
+   "bom-ref": "pypi/azure-identity@>="
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=",
+   "purl": "pkg:pypi/numpy@",
+   "bom-ref": "pypi/numpy@>="
+  },
+  {
+   "type": "library",
+   "name": "3.12",
+   "version": "unspecified",
+   "purl": "pkg:pypi/3.12",
+   "bom-ref": "pypi/3.12@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "click",
+   "version": ">=8.0.0",
+   "purl": "pkg:pypi/click@8.0.0",
+   "bom-ref": "pypi/click@>=8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "anyio",
+   "version": ">=4.5",
+   "purl": "pkg:pypi/anyio@4.5",
+   "bom-ref": "pypi/anyio@>=4.5"
+  },
+  {
+   "type": "library",
+   "name": "httpx",
+   "version": ">=0.27",
+   "purl": "pkg:pypi/httpx@0.27",
+   "bom-ref": "pypi/httpx@>=0.27"
+  },
+  {
+   "type": "library",
+   "name": "mcp",
+   "version": ">=1.28.1",
+   "purl": "pkg:pypi/mcp@1.28.1",
+   "bom-ref": "pypi/mcp@>=1.28.1"
+  },
+  {
+   "type": "library",
+   "name": "python-multipart",
+   "version": ">=0.0.30",
+   "purl": "pkg:pypi/python-multipart@0.0.30",
+   "bom-ref": "pypi/python-multipart@>=0.0.30"
+  },
+  {
+   "type": "library",
+   "name": "sse-starlette",
+   "version": ">=1.6.1",
+   "purl": "pkg:pypi/sse-starlette@1.6.1",
+   "bom-ref": "pypi/sse-starlette@>=1.6.1"
+  },
+  {
+   "type": "library",
+   "name": "starlette",
+   "version": ">=1.1.0",
+   "purl": "pkg:pypi/starlette@1.1.0",
+   "bom-ref": "pypi/starlette@>=1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "uvicorn",
+   "version": ">=0.23.1",
+   "purl": "pkg:pypi/uvicorn@0.23.1",
+   "bom-ref": "pypi/uvicorn@>=0.23.1"
+  },
+  {
+   "type": "library",
+   "name": "@fluentui-contrib/react-chat",
+   "version": "^0.1.10",
+   "purl": "pkg:npm/@fluentui-contrib/react-chat@^0.1.10",
+   "bom-ref": "npm/@fluentui-contrib/react-chat@^0.1.10"
+  },
+  {
+   "type": "library",
+   "name": "@fluentui/react-components",
+   "version": "^9.61.6",
+   "purl": "pkg:npm/@fluentui/react-components@^9.61.6",
+   "bom-ref": "npm/@fluentui/react-components@^9.61.6"
+  },
+  {
+   "type": "library",
+   "name": "@protobuf-ts/grpcweb-transport",
+   "version": "^2.9.6",
+   "purl": "pkg:npm/@protobuf-ts/grpcweb-transport@^2.9.6",
+   "bom-ref": "npm/@protobuf-ts/grpcweb-transport@^2.9.6"
+  },
+  {
+   "type": "library",
+   "name": "@protobuf-ts/runtime",
+   "version": "^2.9.6",
+   "purl": "pkg:npm/@protobuf-ts/runtime@^2.9.6",
+   "bom-ref": "npm/@protobuf-ts/runtime@^2.9.6"
+  },
+  {
+   "type": "library",
+   "name": "@protobuf-ts/runtime-rpc",
+   "version": "^2.9.6",
+   "purl": "pkg:npm/@protobuf-ts/runtime-rpc@^2.9.6",
+   "bom-ref": "npm/@protobuf-ts/runtime-rpc@^2.9.6"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react@^18.3.1",
+   "bom-ref": "npm/react@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react-dom@^18.3.1",
+   "bom-ref": "npm/react-dom@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "react-markdown",
+   "version": "^10.1.0",
+   "purl": "pkg:npm/react-markdown@^10.1.0",
+   "bom-ref": "npm/react-markdown@^10.1.0"
+  },
+  {
+   "type": "library",
+   "name": "uuid",
+   "version": "^14.0.0",
+   "purl": "pkg:npm/uuid@^14.0.0",
+   "bom-ref": "npm/uuid@^14.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@eslint/js",
+   "version": "^9.21.0",
+   "purl": "pkg:npm/@eslint/js@^9.21.0",
+   "bom-ref": "npm/@eslint/js@^9.21.0"
+  },
+  {
+   "type": "library",
+   "name": "@protobuf-ts/plugin",
+   "version": "^2.9.6",
+   "purl": "pkg:npm/@protobuf-ts/plugin@^2.9.6",
+   "bom-ref": "npm/@protobuf-ts/plugin@^2.9.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "^19.2.7",
+   "purl": "pkg:npm/@types/react@^19.2.7",
+   "bom-ref": "npm/@types/react@^19.2.7"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-dom",
+   "version": "^19.2.3",
+   "purl": "pkg:npm/@types/react-dom@^19.2.3",
+   "bom-ref": "npm/@types/react-dom@^19.2.3"
+  },
+  {
+   "type": "library",
+   "name": "@vitejs/plugin-react",
+   "version": "^6.0.2",
+   "purl": "pkg:npm/@vitejs/plugin-react@^6.0.2",
+   "bom-ref": "npm/@vitejs/plugin-react@^6.0.2"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9.21.0",
+   "purl": "pkg:npm/eslint@^9.21.0",
+   "bom-ref": "npm/eslint@^9.21.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react-hooks",
+   "version": "^5.1.0",
+   "purl": "pkg:npm/eslint-plugin-react-hooks@^5.1.0",
+   "bom-ref": "npm/eslint-plugin-react-hooks@^5.1.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react-refresh",
+   "version": "^0.4.19",
+   "purl": "pkg:npm/eslint-plugin-react-refresh@^0.4.19",
+   "bom-ref": "npm/eslint-plugin-react-refresh@^0.4.19"
+  },
+  {
+   "type": "library",
+   "name": "globals",
+   "version": "^15.15.0",
+   "purl": "pkg:npm/globals@^15.15.0",
+   "bom-ref": "npm/globals@^15.15.0"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "~5.7.2",
+   "purl": "pkg:npm/typescript@~5.7.2",
+   "bom-ref": "npm/typescript@~5.7.2"
+  },
+  {
+   "type": "library",
+   "name": "typescript-eslint",
+   "version": "^8.24.1",
+   "purl": "pkg:npm/typescript-eslint@^8.24.1",
+   "bom-ref": "npm/typescript-eslint@^8.24.1"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "^8.0.16",
+   "purl": "pkg:npm/vite@^8.0.16",
+   "bom-ref": "npm/vite@^8.0.16"
+  },
+  {
+   "type": "library",
+   "name": "axios",
+   "version": "^1.18.0",
+   "purl": "pkg:npm/axios@^1.18.0",
+   "bom-ref": "npm/axios@^1.18.0"
+  },
+  {
+   "type": "library",
+   "name": "@microsoft/signalr",
+   "version": "^8.0.7",
+   "purl": "pkg:npm/@microsoft/signalr@^8.0.7",
+   "bom-ref": "npm/@microsoft/signalr@^8.0.7"
+  }
+ ],
+ "sha_unverified": true
+}
